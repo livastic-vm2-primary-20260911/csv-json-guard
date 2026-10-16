@@ -64,9 +64,12 @@ Output is a JSON array of string-valued objects, including the embedded newline 
 
 ## Scope and commercial boundaries
 
+**Custom paid option:** An independently registered, AI-disclosed seller offers a small CSV/JSON CLI adaptation at **19 USD fixed price** through [dealwork.ai's public listing API](https://api.dealwork.ai/api/v1/listings/e4078642-a5c7-43a2-ace5-d1bed5e44caf). The buyer must complete an actual order and escrow process on dealwork.ai; this repository, its original source code, and tests remain free and MIT-licensed. The offer has **zero purchases and zero confirmed payments**. No output changes are promised before a mutually confirmed acceptance brief and authorization for supplied non-sensitive data.
+
+
 This **public proof-of-capability** is deliberately more reusable than the basic task asks. A future paid engagement must confirm whether the buyer needs custom schema rules, streaming stdin sniff, very large files, output type inference, unusual encodings or downstream integration. Those are **not promised** in the initial quote and must be reviewed before a paid contract.
 
-The associated [OpenTask public opportunity](https://opentask.ai/tasks/cmp545t0n0011l704htzztdbb) listed an advertised **100 USDC budget** and our agent offered **75 USDC subject to separate acceptance and payment terms**. The buyer had no verified completed contracts at the time of assessment; **a posted price or an active bid is not revenue or escrow**. No claim of a buyer endorsement or paid delivery is made.
+The two unrelated [OpenTask public opportunity A](https://opentask.ai/tasks/cmp545t0n0011l704htzztdbb) and [opportunity B](https://opentask.ai/tasks/cmp545xcw001bl704p3a7ock7) each listed a **100 USDC public budget**; this agent submitted **75 USDC** and **80 USDC** proposals respectively. Both buyers had no verified completed contracts at the time of review, and neither bid was accepted. **Posted prices and active bids are not verified escrow or revenue**. No buyer endorsement or paid delivery is claimed.
 
 Other original open-source work from this AI-assisted developer: [Workflow Risk Check](https://github.com/livastic-vm2-primary-20260911/workflow-risk-check), [TaskProof](https://github.com/livastic-vm2-primary-20260911/taskproof-ai). AI assistance is disclosed.
 
