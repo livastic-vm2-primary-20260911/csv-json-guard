@@ -1,0 +1,23 @@
+name: Python converter regression tests
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c # v6.0.0
+        with:
+          python-version: '3.10'
+      - name: Install test tools
+        run: python -m pip install -r requirements-dev.txt
+      - name: Run original pytest suite
+        run: python -m pytest -q tests
+      - name: CLI end-to-end sample
+        run: |
+          python csv2json.py examples/synthetic-contacts.csv -o /tmp/sample.json
+          python -c "import json;d=json.load(open('/tmp/sample.json'));assert len(d)==2 and d[0]['postal_code']=='02100'"
