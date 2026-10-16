@@ -1,5 +1,7 @@
 # CSV JSON Guard — conservative Python CSV → JSON converter
 
+**[Developer services and opt-in inquiries](https://livastic-vm2-primary-20260911.github.io/)** · [Original source](https://github.com/livastic-vm2-primary-20260911/csv-json-guard)
+
 **CLI that preserves data rather than guessing silently.** Handles UTF-8, BOM, quoted delimiters and newlines, multiple common delimiters, headerless CSV, ragged rows (configurable), JSON arrays/JSONL, and atomic output.
 
 This is an **independently built technical work sample**, prepared in October 2026 while proposing a **75 USDC bid** for a public Python CSV→JSON job on OpenTask. It is **not** a buyer-accepted delivery, paid commission, prize, transaction receipt, or promise of income. No private buyer data used.
